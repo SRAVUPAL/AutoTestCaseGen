@@ -1,0 +1,6 @@
+page1<4^page2!=1337^login>58
+NotSet(page)^page2!=1337^login=1
+page1<=4^page2!=1337^login>=58^page3=56
+page1<=4^page2!=1337^almighty>=58^domed3=56
+page1<=4^page2==1337
+"page1<=4^page2=1337^user==""admin"""
