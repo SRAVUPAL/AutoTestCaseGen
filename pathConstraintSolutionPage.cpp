@@ -1,3 +1,25 @@
+/*
+ * File name : pathConstrainPage.cpp
+ * Author : @SRAVUPAL
+ * Page description : This page contains the functionality to separate the conditions from a failed path constraint.
+ * -----------------------------------------
+ * Start Date : MAY 12 2020
+ * -----------------------------------------
+ * Change History
+ * -----------------------------------------
+ * Change Date : MAY 12 2020
+ * Author : @SRAVUPAL
+ * Change Description : Created pathConstrainPage file.
+ * -----------------------------------------
+ * Change Date : AUG 03 2020
+ * Author : @SRAVUPAL
+ * Change Description : Included comments to the page.
+ * -----------------------------------------
+ */
+
+/*
+ * Declarations
+ */
 #include <iostream>
 #include <string.h>
 #include <vector>
@@ -7,7 +29,7 @@
 using namespace std;
 
 /*
- *
+ * This part of code separates the special character ^ from the failed path constrain.
  */
 
 struct tokens: ctype<char>
@@ -28,7 +50,8 @@ struct tokens: ctype<char>
 };
 
 /*
- *
+ * The pcSolvingFunction() takes cleaned PC as input and uses above structure to separate page values
+ * and are stored in a vector
  */
 vector<string> pcSolvingFunction(string FailedPC)
 {

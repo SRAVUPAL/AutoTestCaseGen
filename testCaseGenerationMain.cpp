@@ -1,7 +1,8 @@
 
 /*
- * This file contains main()
+ * testCaseGenerationMain.cpp
  * Author : @SRAVUPAL
+ * Page description : This page contains the main function which includes the code to read data from csv file.
  * -----------------------------------------
  * Start Date : MAR 3 2020
  * -----------------------------------------
@@ -40,6 +41,11 @@
  * Author : @SRAVUPAL
  * Change Description : Changed the structure of the project, created separate pages for every function and created a service header file.
  *                      Also changed the data input from user to csv file.
+ * ------------------------------------------
+ * Change Date : AUG 03 2020
+ * Author : @SRAVUPAL
+ * Change Description : Included comments to the page.
+ * ------------------------------------------
  */
 
 /*
@@ -52,7 +58,9 @@
 #include <sstream>
 #include "serviceFunctions.h"
 using namespace std;
-
+/*
+ * This is the main function that contains all the essential function calls to accomplish the task.
+ */
 int main()
 {
     string line;
@@ -60,7 +68,9 @@ int main()
     ifstream data("data.csv");
     ofstream myfile ("testcases.csv");
     vector<vector<vector<string> > >TCVec;
-
+/*
+ * This is the code to read data from a csv file.
+ */
     if (data.is_open())
     {
         while ( getline (data,line) )

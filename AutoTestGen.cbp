@@ -32,7 +32,6 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="PathConstraintPage.cpp" />
-		<Unit filename="Test.cpp" />
 		<Unit filename="data.csv" />
 		<Unit filename="pathConstraintSolutionPage.cpp">
 			<Option compilerVar="CC" />

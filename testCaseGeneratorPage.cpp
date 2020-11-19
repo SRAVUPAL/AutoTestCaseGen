@@ -1,10 +1,33 @@
+/*
+ * File name : testCaseGenerationPage.cpp
+ * Author : @SRAVUPAL
+ * Page description : This page has got the logic to generate appropriate test cases as per the input condition.
+ * -----------------------------------------
+ * Start Date : MAY 12 2020
+ * -----------------------------------------
+ * Change History
+ * -----------------------------------------
+ * Change Date : MAY 12 2020
+ * Author : @SRAVUPAL
+ * Change Description : Created testCaseGenerationPage file.
+ * -----------------------------------------
+ * Change Date : AUG 03 2020
+ * Author : @SRAVUPAL
+ * Change Description : Included comments to the page.
+ * -----------------------------------------
+ */
+
+/*
+ * Declarations
+ */
 #include <iostream>
 #include <string.h>
 #include <vector>
 #include "serviceFunctions.h"
 using namespace std;
+
 /*
- *
+ * The function testCaseGeneratorFunction() takes the input values of failed constraints and generates test cases.
  */
 vector<vector<string>> testCaseGeneratorFunction(vector<string> PCVector)
 {
